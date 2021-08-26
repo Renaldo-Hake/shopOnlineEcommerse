@@ -1,0 +1,42 @@
+.cartList {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 90% ;
+    margin: auto;
+}
+
+#cartList ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid;
+}
+
+/* COUPON */
+#coupon {
+    position: relative;
+    width: 60%;
+    text-align: center;
+    margin: 20px;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    left: 3.5%;
+}
+
+/* Dropdown menu accordion */
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.container-title {
+    cursor: pointer;
+}
+
+.container-content {
+    display: none;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Online | Contact us</title>
+
+    <!-- Bootstrap link to make the page look good -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Further styles used to make the pages look even better -->
+    <link rel="stylesheet" href="CSS-Styles/styles.css">
+
+    <!-- Fontawesome used for icons -->
+    <script src="https://kit.fontawesome.com/bf9c95a31f.js" crossorigin="anonymous"></script>
+
+    <!-- Loading JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Javascript adding jquery functionality -->
+    <script src="Javascript/jquery.js" defer></script>
+</head>
+
+<body>
+    <!-- Top nav bar with logo -->
+    <div class="top-bar">
+
+        <!-- Logo-->
+        <a href="index.html"><img src="images/logo.png" alt="company logo" width="100px" height="70px"
+                style="border: none;"></a>
+
+        <!-- Nav -->
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i></a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Contact form-->
+    <h1 class="heading"><strong><i>Contact us</i></strong></h1>
+
+    <!-- Form -->
+    <form action="#" class="form-horizontal">
+        <div class="form-group">
+            <input type="text" name="name" id="Name" class="form-control" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="surname" id="Surname" class="form-control" placeholder="Surname">
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" id="Email" class="form-control" placeholder="Email address">
+        </div>
+        <div class="form-group">
+            <h4>Reason for contacting us:</h4>
+            <div class="form-group">
+                <input type="radio" name="Enquiry" id="Enquiry">
+                <label for="Enquiry">General Enquiry</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" name="Enquiry" id="Shipping">
+                <label for="Enquiry">Shipping Issues</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" name="Enquiry" id="Product">
+                <label for="Enquiry">Product Issues</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <textarea name="message" id="Message" class="form-control" cols="30" rows="5"
+                placeholder="Your message here..."></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <!-- Shipping Company -->
+    <a href="https://www.fedex.com/en-za/shipping.html" target="_blank">
+        <section class="shipping">
+            <h2>Having Shipping Issues?</h2>
+            <h4>Contact our shipping company Directly</h4>
+            <h1><span style="color: purple;">Fed</span><span style="color: orangered;">Ex</span></h1>
+        </section>
+    </a>
+
+    <!-- Frequently asked Questions -->
+    <h1 class="heading"><strong><i>Frequently asked Questions</i></strong></h1>
+    <table>
+        <thead>
+            <th>Questions</th>
+            <th>Answers</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>How long before I receive my items?</td>
+                <td>Depends on where you live, our average delivery time is 10 days. Contact FedEx to confirm delivery
+                    time, alternatively get in touch with our customer support team.</td>
+            </tr>
+            <tr>
+                <td>Is my card details safe?</td>
+                <td>Yes, we have a strong cyber security system in place to protect you from hackers. None of our staff
+                    will ever be able to view your card details as all card details are encrypted.</td>
+            </tr>
+            <tr>
+                <td>Am I allowed to return a product?</td>
+                <td>Yes, if the product is still sealed in its original packaging we will accept all products within 10
+                    days after the product was payed.</td>
+            </tr>
+            <tr>
+                <td>Why is your website so awesome?</td>
+                <td>We used the services of Renaldo Hake to develop this awesome webiste so you can enjoy shopping
+                    online</td>
+            </tr>
+            <tr>
+                <td>Can I create my own profile?</td>
+                <td>No, unfortunately we have not upgraded the website to be able to allow users to create profiles. But
+                    we will do so in the near future.</td>
+            </tr>
+
+    </table>
+
+    <!-- FOOTER -->
+    <footer>
+        <!-- Company -->
+        <div>
+            <h3 class="main-color"><strong>COMPANY</strong></h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Meet the Team</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Exchange & Return</a></li>
+            </ul>
+        </div>
+
+        <!-- Support -->
+        <div>
+            <h3 class="main-color"><strong>SUPPORT</strong></h3>
+            <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Email us</a></li>
+                <li><a href="#">Let us call you</a></li>
+                <li><a href="#">Order tracking</a></li>
+            </ul>
+        </div>
+
+        <!-- Follow -->
+        <div>
+            <h3 class="main-color"><strong>FOLLOW US</strong></h3>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook" style="color:  #3b5998;"></i>&nbsp Facebook</a></li>
+                <li><a href="#"><i class="fab fa-twitter" style="color: #00acee"></i>&nbsp Twitter</a></li>
+                <li><a href="#"><i class="fab fa-instagram" style="color: #3f729b"></i>&nbsp Instagram</a></li>
+                <li><a href="#"><i class="fab fa-youtube" style="color: #c4302b"></i>&nbsp You Tube</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
